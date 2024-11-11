@@ -3,131 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ricardo Fernandes"
-    
-    <title>O COZINHEIRO</title>
+    <title>GUNS</title>
+
+    <style>
+        .titulo{
+    background-color: #ffe4c4;
+    padding: 30px;
+}
+.botao{
+    padding: 15px;
+    background: #ffe4c4;
+    color: #000000;
+    text-decoration: none;
+}
+a.botao:hover{
+    opacity: 0.9;
+}
+
+ul{
+    background: #D2B48C;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: #8B4513;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    opacity: 0.5;
+}
+
+h1{
+    color: #000000;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: bisque;
+    width: 150px;
+}
+.dropdown-content a{
+    color: #8B4513;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: #D2B48C;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+    </style>
 </head>
 <body>
-    <p><a href="audio.html">Os meus áudios</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="formulário.html">Preencher o Formulário</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="sobre.html">Sobre mim</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="video.html">Secção dos Videos</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="semantico.html">Div e HTML semantico</a>
-</p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    
-    
-    <h1>Aprender a mexer com programação</h1>
-
-    <p>Aqui comecei aprender a mexer no VC</p>
-
-    <p>Lorem ipsum dolor sit amet, <i>consectetur adipisicing elit.</i> Cum fuga, mollitia ullam nihil illum perspiciatis possimus itaque voluptatem <br> libero nostrum animi veniam blanditiis delectus voluptas at <u>veritatis reprehenderit debitis ea!</u></p>
-
-    <hr>
-    <h2>O que são TAGs</h2>
-    <p>São necessárias para fazer a estrutura de um site</p>
-   
-    <hr>
-    <h3>Isto é para aprender</h3>
-        <br>
-        <p><small>Ricardo Fernandes</small></p>
-        <b><del>500</del> ou 1000</b>
-
-    <h4>Explicação abrebiaturas</h4>
-    <p>Estamos aprender <abbr title="Hyper text markup language">HTML</abbr>.</p>
-
-    <address>Rua do Vale Michão 62 - Aveiro</address>
+    <H1 class="titulo">AS MINHAS ARMAS FAVORITAS</H1>
     <br>
-    <cite>Titulos de Obras literárias</cite>
-
-    <H1>Adicionar comentário no código mas só nós conseguimos ver</H1>
-    <!--comentário-->
-
-    <H1>Aqui vamos aprender links</H1>
-    <p>Sê bem vindo</p>
-
-    <p>ISTO É UM LINK ABSOLUTO</p>
-    <!--hr é uma linha-->
-    <hr>
-    <a href="https://google.com"target="_blank">Go To Google em outra página</a>
-    <p><a href="https://google.com">Go To Google ficando na mesma página</a></p>
-    <hr>
-
-    <p>ISTO É UM LINK RELATIVO PARA IR PARA O PRÓPRIO SITE</p>
-    
-    <a href="sobre.html">clica para saber mais sobre nós</a>
-
-    <br><br>
-
-    <a href="equipa/Ricardo.html">Ricardo</a>
-</body>
-    
-<body>
-
-
-    <H1>IMAGENS</H1>
-
-    <img src="img/lua.jpg"width="300">
-
-    <hr>
-
-    <img src="img/grafite.png"width="300">
-
-<h1>Aprofundar mapeamento de imagens aqui</h1>
-Ou tbm clicar em imagens para ir para link
-
-<h1>Tabelas</h1>
-
-<table width="100%" border="3" style="text-align: center;">
-
-    <tr>
-        <th>Nome</th>
-        <th>Idade</th>
-        <th>Peso</th>
-        <th>Altura</th>
-    </tr>
-    <tr>
-        <td>Ricardo</td>
-        <td>28</td>
-        <td>70Kg</td>
-        <td>1,70M</td>
-    </tr>
-</table>
-<hr>
-
-<H1>Listas Não Ordenadas ul</H1>
-
+<!--aqui em baixo onde tem o a href "espingardas", podia ter o que são. nestemomento nao têm link-->
 <ul>
-    <li>Arroz</li>
-    <li>Feijão</li>
-    <li>Carne</li>
-    <li>Pão</li>
-    <li>Manteiga</li>
+    <li class="dropdown">
+        <a class="dropbtn" href="Espingardas">ESPINGARDAS</a>
+        <div class="dropdown-content">
+            <a href="Mossberg 940 JM PRO Camo.html">Mossberg 940 JM PRO Camo</a> 
+            <a href="Browning Maxus CAMO MAX5 Cal.12.html">Browning Maxus CAMO MAX5 Cal.12</a> 
+            <a href="Winchester SX4 Waterfow.html">Winchester SX4 Waterfowl</a> 
+        </div>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown" href="Carabinas">CARABINAS</a>
+        <div class="dropdown-content">
+            <a href="Carabina Bergara B14 Crest.html">Carabina Bergara B14 Crest</a> 
+            <a href="Carabina Cadex Defense CDX 40 Shadow Long top rail 40MOA .375CT.html">Carabina Cadex Defense CDX 40 Shadow Long top rail 40MOA .375CT</a> 
+        </div>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown" href="Pistolas">PISTOLAS</a>
+        <div class="dropdown-content">
+            <a href="Pistola Beretta 92 Centennial.html">Pistola Beretta 92 Centennial</a> 
+            <a href="Pistola Glock 45 Gen.5.html">Pistola Glock 45 Gen.5</a> 
+            <a href="Pistola Sig Sauer X-Five Allround Champions.html">Pistola Sig Sauer X-Five Allround Champions</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown" href="Acessorios">ACESSÓRIOS</a>
+        <div class="dropdown-content">
+            <a href="Acessórios bala Federal .300win Premium Barnes TSX 180g.html">Acessórios bala Federal .300win Premium Barnes TSX 180g</a> 
+            <a href="Acessórios Binóculos Swarovski EL RANGE 10×42 TA.html">Acessórios Binóculos Swarovski EL RANGE 10×42 TA</a> 
+            <a href="Acessórios Blaser Lanterna HL 6000 Black.html">Acessórios Blaser Lanterna HL 6000 Black</a>
+            <a href="Acessórios FRANZEN Funda Dupla de Carabina.html">Acessórios FRANZEN Funda Dupla de Carabina</a>
+            <a href="Acessórios Knife Magnum Brushwood.html">Acessórios Knife Magnum Brushwood</a>
+            <a href="Acessórios Luneta Swarovski Z6i 2,5-15×56.html">Acessórios Luneta Swarovski Z6i 2,5-15×56</a>
+            <a href="Acessórios MARKHOR Mochila IBEX II 75 + 10 L CAMO.html">Acessórios MARKHOR Mochila IBEX II 75 + 10 L CAMO</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown" href="Roupas">ROUPAS</a>
+        <div class="dropdown-content">
+            <a href="Aigle Bota Altavio MID GTX.html">Aigle Bota Altavio MID GTX</a> 
+            <a href="Blaser Casaco Observer HunTec.html">Blaser Casaco Observer HunTec</a> 
+            <a href="Blaser Casaco Polar Jonathan.html">Blaser Casaco Polar Jonathan</a>
+            <a href="Browning Boné Saratoga.html">Browning Boné Saratoga</a>
+            <a href="SWEDTEAM Casaco Polar Realtree APG.html">SWEDTEAM Casaco Polar Realtree APG</a>
+        </div>
+    </li>
 </ul>
-
-<p><li>Arroz</li><li>Feijão</li><li>Carne</li><li>Pão</li><li>Manteiga</li></p>
-
-<h2>Lista ordenada ol</h2>
-
-<ol>
-    <li>Alface</li>
-    <li>Tomate</li>
-    <li>Alho</li>
-    <li>Coentros</li>
-</ol>
-
-<br>
-<hr>
-
-<div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=Aveiro&amp;t=&amp;z=20&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 600px; height: 300px;"></iframe><style>.mapouter{display:table;}.gmap_canvas{overflow:hidden;position:relative;height:300px;width:300px;background:#fff;}</style><a href="https://www.taxuni.com/1040-form/">1040 form</a><style>.gmap_canvas iframe{position:relative !important;z-index:2 !important;}.gmap_canvas a{color:#fff !important;position:absolute !important;top:0 !important;left:0 !important;z-index:0 !important;}</style></div></div>
-
-
+    
+<br><br><br><br><br>
+    <a class="botao" href="css.html">Início</a>
 
 
 </body>
-
 </html>
