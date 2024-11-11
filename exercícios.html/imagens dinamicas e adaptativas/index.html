@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas e Adaptativas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tenta abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho da tela do navegador.</p>
+    
+    <!-- por padrão ele carrega a iamgem "normal" de 1000px mas se a tela chegar a menos de 1000px ele carrega a foto média, se ele chegar a menos de 700 ele carrega a iamgem pequena-->
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/p.png" type="image/png"> 
+        <source media="(max-width: 1000px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="Imagem G">
+    </picture>
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de Texto</title>
+
+</head>
+<body>
+    
+    <h1>Faz sentido - semântica. Não faz sentido - Não semântica</h1>
+    
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase temos a palavra <b>Portugal</b> em negrito usando a tag B (não semântica). Aqui dá forma.</p>
+    <p>Agora a palavra <Strong>Portugal</Strong> em negrito usando a tag STRONG. Aqui dá sentido. Dá força á palavra.</p>
+
+    <h2>Itálico</h2>
+    <p>Nesta frase, temos um termo em <i>itálico</i> usando Envolapamento CTRL+SHIFT+P. 
+    Clique uma vez em cima de wrap with abbreviation e depois em i.</p>
+    <p>Nesta frase temos um <em>termo em destaque</em> usando a tag EM (semântica).</p>
+
+    <h2>Marcador de Texto</h2>
+    <p>Aqui vamos ter um texto marcado: <mark style="background-color: lime;">Olá sou o Ricardo</mark></p>
+    <p>Aqui vamos ter marcado: <mark>Sou progrmador.</mark> mas com a cor amarelo que é a cor padrão. Se quiseres as marcas todas da mesma cor faz se na página CSS</p>
+    
+    <h2>Texto grande e pequeno.</h2>
+    <h3>Neste caso a tag big está em desuzo porque não faz sentido ter letras grandes, para isso faz em css</h3>
+    <p><big>hello, whats up?</big></p>
+    <h3>Neste caso a tag small funciona para situações tipo as letras pequenas dos sites</h3>
+    <p><small>hello, whats up?</small></p>
+    
+    <h2>Texto excluido e inserido OU RISCADO E SUBLINHADO</h2>
+    <h3>Texto excluido</h3>
+    <p><del>Aqui indica que o texto deve ser lido mas nao considerado.</del></p>
+    <h3>Texto inserido</h3>
+    <p><ins>Aqui indica que estamos a dar ênfase a um texto ou palavra que foi inserida depois</ins></p>
+
+    <h2>Texto sobreescrito</h2>
+    <p>x<sup>20</sup>+3</p>
+    <h2>Texto subescrito</h2>
+    <p>H<sub>2</sub>O</p>
+
+    <h2>Código-fonte / Pré-formatações</h2>
+    <p>O comando <code>document.getElementById(´teste)</code> é escrito em linguagem JavaScrip</p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'0 número {num} é PAR')
+    else:
+        print(f'0 número {num} é ÍMPAR')
+        print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+
+    <h2>Citações Completas</h2>
+    <p>Fernando Pessoa</p>
+    <blockquote cite="https://www.pensador.com/frases_de_fernando_pessoa/">
+        Tudo vale a pena quando a alma não é pequena.
+    </blockquote>
+
+    <h2>Abrebiações</h2>
+    <p><abbr title="Organização das Nações Unidas para a Educação, a Ciência e a Cultura">UNESCO</abbr></p>
+    <p></p><abbr title="HyperTExt Markup Language">HTML</abbr>
+    <p><abbr title="Cascading Style Sheets">CSS</abbr></p>
+
+    
+
+</body>
+</html>

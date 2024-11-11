@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        .titulo{
+    background-color: bisque;
+    padding: 30px;
+}
+.botao{
+    padding: 15px;
+    background: rgba(165, 122, 42, 0.644);
+    color: bisque;
+    text-decoration: none;
+}
+a.botao:hover{
+    opacity: 0.9;
+}
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Formulários</h1>
+    
+    <h1>Login</H1>
+
+    <form action="arquivo.php" method="get">
+        
+        <label for="Name">Name:</label>
+        <input id="Name" type="text" placeholder="Name" required>
+        
+        <br><br>
+       
+        <label for="Country">Country:</label>
+        <input id="Country" type="text" placeholder="Country" required>
+        
+        <br><br>
+        
+        <label for="campo-email">Email:</label>
+        <input id="Name" type="email" placeholder="Email" required>
+        
+        <br><br>
+        
+        <label for="Password">Password:</label>
+        <input id="Password" type="password" placeholder="numbers and lyrics" required>
+        
+        <br><br>
+<hr>
+        <h1>Animal de Estimação</h1>
+        <input type="radio" id="Dog" name="animal" value="Cachorro"><label for="Dog">Cão</label>
+        <br>
+        <input type="radio" id="Cat" name="animal" value="Cão"><label for="Cat">Gato</label>
+        <br>
+        <input type="radio" id="Bird" name="animal" value="Pássaro"><label for="Bird">Pássaro</label>
+        <br><br>
+<hr>
+        <H1>Seleciona</H1>
+        <input id="item1" type="checkbox" name="item1" value="TV"><label for="item1">TV</label>
+        <br>
+        <input id="item2" type="checkbox" name="item2" value="Geladeira"><label for="item2">Frigorifico</label>
+        <br>
+        <input id="item3" type="checkbox" name="item3" value="Computador"><label for="item3">PC</label>
+        <br><br>
+<hr>
+        <h1>Escolhe uma Cor</h1>
+<select name="cores">
+    <option selected disabled value="">Seleciona uma cor</option>
+    <option value="Vermelho">Vermelho</option>
+    <option value="Azul">Azul</option>
+    <option value="Amarelo">Amarelo</option>
+    <option value="Preto">Preto</option>
+    <option value="Branco">Branco</option> 
+    </select>
+<hr>
+    <h1>Escreve um comentário</h1>
+    <textarea name="name" placeholder="Escreve um comentário" rows="5" cols="55"></textarea>
+
+
+<br><br><br>
+    <input type="submit" value="Enviar Formulário">
+    <br>
+
+    </form>
+    <br><br>
+    <a class="botao" href="css.html">Início</a>
+
+
+</body>
+</html>

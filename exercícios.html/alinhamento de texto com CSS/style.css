@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font: normal 16px "Work Sans", sans-serif;
+}
+
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    font-family: "Work Sans", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+}
+
+
+p{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /*lighter normal bold bolder - tambem pode ir de 100 a 900*/
+    font-style: normal;
+    text-align: justify;
+    text-indent: 20px; /*paragrafo*/
+}
+

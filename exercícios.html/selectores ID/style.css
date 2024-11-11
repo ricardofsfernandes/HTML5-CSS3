@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(205, 255, 203, 0.404);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(4, 109, 0);
+}
+
+h2{
+    color: #F15152;
+    background-color: rgb(4, 109, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+.Cozinha{
+    background-color: rgb(236, 164, 0);
+    color: #090909;             
+    border: 1px solid black;       /* Adiciona uma borda */
+    padding: 2px;              /* Espaçamento interno */
+    border-radius: 0.5px;         /* Bordas arredondadas */
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudos Elementos</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none; /*tira o sublinhado*/
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+            /*se for visitado fica da cor x*/
+        }
+
+        a:hover{
+            color: black; /*fica preto quando passas por cima*/
+            text-decoration: underline;/*sublinha quando passas o rato*/
+            
+        }
+
+        a:active{
+            color: yellowgreen;
+            /*aqui fica amarelo enquanto carregas*/
+        }
+
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizar links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css">Repositório Git</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Canal Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site de CursoEmVideo</a></li>
+    </ul>
+</body>
+</html>
